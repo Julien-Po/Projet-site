@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkorchid;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 80%;
+  margin: 0 10% 0 10%;
+  z-index: 2;
+}
+
+.langue {
+    border-radius: 20px;
+    background: #e0ecdb;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+
+
+.top-img {
+    background: url(./bg.jpg) center/cover;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 80px;
+    position: relative;
+   }
+
+.top-img img {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+   }
+
+.top-img h3 {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    font-size: 1.5em;
+    margin: 45px 0 45px 0;
+    color: #e0ecdb;
+    padding: 0 10px 0 0;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+
+.top-img button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    padding : 8px 18px 8px 18px;
+    letter-spacing: 1px;
+    background: none;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: thin;
+    font-size: 0.9rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+header p {
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.top {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin: 20px 0 20px 0;
+    font-size: 1.1rem;
+}
+.up {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(17, 17, 17);
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 50px;
+     }
+
+.up div {
+    text-align: center;
+}
+
+.up img {
+    padding-bottom: 10px;
+}
+.up h2 {
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.up p {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.formation {
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.up button {
+    background: rgb(17, 17, 17);
+    color: white;
+    border: solid white;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+}
+
+.media {
+    position: relative;
+    padding-bottom: 40px;
+    
+}
+
+.media a {
+    position: absolute;
+    bottom: 0;
+}
+
+.news h2 {
+    font-size: 1.5rem;
+}
+
+.news link {
+    font-size: 1.1em;
+    position: bottom;
+}
+
+.colorbas {
+   background: #f7f7f7;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 200px;
+}
+
+.image h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    max-width: 200px;
+}
+
+.image p {
+    align-items: center;
+    text-align: left;
+    max-width: 300px;
+}
+
+.image button {
+    border: none;
+    background: none;
+    color: #940581;
+}
+
+.lstsection {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 0 10% 0 10%;
+    width: 80%;
+}
+
+.lstlogo {
+    max-width: 17%;
+}
+
+.info {
+    max-width: 17%;
+    text-align: left;
+}
+
+.info h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 2rem;
+    top: 0;
+    text-transform: uppercase;
+}
+
+.info h4 {
+    color: #9faaf5;
+    line-height: 2.1rem;
+}
+
+.question {
+    max-width: 17%;
+}
+
+.question h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 2rem;
+    top: 0;
+    text-transform: uppercase;
+}
+
+.question p {
+    line-height: 1.3rem;
+}
+
+.contact {
+    max-width: 17%;
+}
+
+.question a {
+    line-height: 4rem;
+}
+
+.contact h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 2rem;
+    top: 0;
+    text-transform: uppercase;
+}
+
+
+.contact p {
+    line-height: 1.5rem;
+}
+
+.contact img {
+    max-width: 10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+}
+
+.lstsection {
+padding-bottom: 150px;
+}
+
+.fall {
+    flex-direction: column;
+}
+
+.famous {
+    display: flex;
+    justify-content: space-around;
+}
+
+.famous img {
+    height: 4%;
+    align-items: center;
+}
+
+.fall h2 {
+    font-weight: bold;
+    top: 0;
+    font-size: 1.2rem;
+    padding-bottom: 3%;
+}
+
+footer {
+    background: #000;
+    padding-bottom: 10%;
+}
+
+.footitle {
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-size: 1.5rem;
+}
+
+.footimage {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10% 0 10%;
+}
