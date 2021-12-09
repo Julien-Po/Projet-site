@@ -322,6 +322,10 @@ padding-bottom: 150px;
     padding-bottom: 3%;
 }
 
+.fall p {
+    padding-bottom: 20px;
+}
+
 footer {
     background: #000;
     padding-bottom: 5%;
