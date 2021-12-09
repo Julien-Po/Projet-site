@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    font-family: "Montserrat";
+}
+
 a {
     text-decoration: none;
     color: darkorchid;
@@ -152,11 +156,11 @@ header p {
     display: flex;
     position: relative;
     justify-content: space-between;
+    padding-top: 5%;
 }
 
 .news h2 {
     font-size: 1.5rem;
-    padding-top: 5%;
     font-family: 'Montserrat';
     font-weight: 300;
     letter-spacing: 4px;
@@ -166,7 +170,6 @@ header p {
     font-family: 'Montserrat';
     font-weight: 700;
     padding: 10px;
-    bottom: 0;
 }
 .media {
     position: relative;
@@ -348,6 +351,53 @@ footer {
 }
 
 @media (max-width: 300px) {
-    .top-nav {
+    * {
+        margin: 0;
+        padding: 0;
     }
-}
+    
+    .top-nav {
+        visibility: hidden;
+    }
+
+    .top-img {
+         background: url(./bg.jpg) center/cover;
+        width: 100%;
+        margin-top: 25px;
+        padding-bottom: 80px;
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+
+    .top-img img {
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        max-width: 100%;
+  }
+    .top-img h3 {
+        text-align: center;
+        font-size: 1.2rem;
+  }
+    .top-img button {
+        font-size: 0.7rem;
+    }
+    
+    .top {
+        font-size: 0.7rem;
+    }
+
+    .up {
+        flex-direction: column;
+    }
+
+    .up p {
+        font-size: 0.6rem;
+        width: 70%;
+    }
+
+    .news {
+        flex-direction: column;
+    }
+}  
