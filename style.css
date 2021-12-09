@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +28,7 @@ h4 {
   width: 80%;
   margin: 0 10% 0 10%;
   z-index: 2;
+  top: 0%;
 }
 
 .langue {
@@ -39,7 +43,7 @@ h4 {
 .top-img {
     background: url(./bg.jpg) center/cover;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 25px;
     padding-bottom: 80px;
     position: relative;
    }
@@ -60,7 +64,9 @@ h4 {
     color: #e0ecdb;
     padding: 0 10px 0 0;
     font-family: 'Montserrat';
+    font-weight: 300;
     text-transform: uppercase;
+
 }
 
 .top-img button {
@@ -69,7 +75,7 @@ h4 {
     position: relative;
     margin: 0 auto;
     padding : 8px 18px 8px 18px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     background: none;
     border-style: solid;
     border-color: whitesmoke;
@@ -83,6 +89,8 @@ header p {
     text-align: center;
     align-items: center;
     margin: 0 auto;
+    font-family: 'Montserrat';
+    font-weight: 300;
 }
 
 .top {
@@ -92,6 +100,8 @@ header p {
     margin: 20px 0 20px 0;
     font-size: 1.1rem;
 }
+
+    
 .up {
     display: flex;
     justify-content: space-around;
@@ -109,13 +119,16 @@ header p {
     padding-bottom: 10px;
 }
 .up h2 {
-    font-weight: bold;
+    font-family: 'Montserrat';
+    font-weight: 700;
     margin: 0 auto;
     padding-bottom: 10px;
 }
 .up p {
-    max-width: 200px;
+    max-width: 300px;
     margin: 0 auto;
+    font-family: 'Montserrat';
+    font-weight: 300;
 }
 
 .formation {
@@ -126,22 +139,44 @@ header p {
 .up button {
     background: rgb(17, 17, 17);
     color: white;
-    border: solid white;
+    border: solid white thin;
     position: absolute;
     bottom: 0;
     transform: translateX(-50%);
-
+    font-family: 'Montserrat';
+    font-weight: 300;
+    padding: 5px 10px;
 }
-
 .news {
+    align-items: center;
     display: flex;
+    position: relative;
     justify-content: space-between;
 }
 
+.news h2 {
+    font-size: 1.5rem;
+    padding-top: 5%;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.news button {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding: 10px;
+    bottom: 0;
+}
 .media {
     position: relative;
     padding-bottom: 40px;
     
+}
+
+.media p {
+    font-family: 'Montserrat';
+    font-weight: 300;
 }
 
 .media a {
@@ -153,15 +188,13 @@ header p {
     margin: 0 10% 0 10%;
 }
 
-.news h2 {
-    font-size: 1.5rem;
-    padding-top: 5%;
+
+.btnews {
+    height: 10%;
+    bottom: 0;
 }
 
-.news link {
-    font-size: 1.1em;
-    position: bottom;
-}
+
 
 .colorbas {
    background: #f7f7f7;
@@ -308,4 +341,9 @@ footer {
     justify-content: space-around;
     margin: 0 10% 0 10%;
     height: 1%;
+}
+
+@media (max-width: 300px) {
+    .top-nav {
+    }
 }
