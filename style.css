@@ -409,8 +409,29 @@ footer {
         max-width: 100%;
         font-size: 0.8rem;
     }
-    .media img {
-        flex-direction: column;
-        width: 100%;
-    }
+  .image {
+      padding-bottom: 0;
+      flex-direction: column;
+  }
+   
+   .media {
+       padding-bottom: none;
+       align-items: center;
+       text-align: center;
+   }
+
+   .media a {
+       align-items: left;
+   }
+
+  .lstsection {
+      visibility: hidden;
+      height: 0;
+  }
+
+  .responsive {
+      visibility: hidden;
+      height: 0;
+  }
+
 }  
