@@ -151,19 +151,21 @@ header p {
     font-weight: 300;
     padding: 5px 10px;
 }
+
+.tnews {
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    letter-spacing: 4px;
+    padding-top: 5%;
+}
+
 .news {
     align-items: center;
     display: flex;
     position: relative;
     justify-content: space-between;
-    padding-top: 5%;
-}
-
-.news h2 {
-    font-size: 1.5rem;
-    font-family: 'Montserrat';
-    font-weight: 300;
-    letter-spacing: 4px;
+    padding-bottom: 10%;
 }
 
 .news button {
@@ -174,8 +176,7 @@ header p {
 .media {
     position: relative;
     padding-bottom: 40px;
-    
-}
+    }
 
 .media p {
     font-family: 'Montserrat';
@@ -196,8 +197,6 @@ header p {
     height: 10%;
     bottom: 0;
 }
-
-
 
 .colorbas {
    background: #f7f7f7;
@@ -399,5 +398,19 @@ footer {
 
     .news {
         flex-direction: column;
+    }
+    .tnews {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .news p {
+        text-align: center;
+        max-width: 100%;
+        font-size: 0.8rem;
+    }
+    .media img {
+        flex-direction: column;
+        width: 100%;
     }
 }  
